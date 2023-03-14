@@ -53,7 +53,7 @@ class App extends Component {
     const {users, isStraight} = this.state;
     return <>
     <p>
-    <button onClick={this.sortUsers}>SORT BY NUMBERS{isStraight ? 'straight' : 'reverse'}</button>
+    <button onClick={this.sortUsers}>SORT BY NUMBER{isStraight ? 'straight' : 'reverse'}</button>
     {/* <button onClick={this.sortUsers}>SORT BY NAME{isAlphabet ? 'straight' : 'reverse'}</button> */}
     </p>
       <div>

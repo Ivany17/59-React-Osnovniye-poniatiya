@@ -18,7 +18,7 @@ class Ciao extends Component{
         if(isGreeting){
             return <>
             <h2>{id} Hi, {name}</h2>
-            <button onClick={this.handlerBtn}>Ciao bella</button>
+            <button onClick={this.handlerBtn}>Ciao</button>
         </>
         }
         return <h2>Bye {name}!</h2>
